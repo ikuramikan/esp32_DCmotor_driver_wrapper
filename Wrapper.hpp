@@ -18,6 +18,7 @@ private:
 
     const int f;
     const int bits;
+    bool flag;
 
     // helper
     void set_state(int new_r1_state, int new_r2_state, int new_l1_state, int new_l2_state);
